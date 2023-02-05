@@ -1,8 +1,5 @@
 [![Download](https://img.shields.io/github/downloads/liyafe1997/FuckDevicePolicy/total)](https://github.com/liyafe1997/FuckDevicePolicy/releases)
 
-![1](https://user-images.githubusercontent.com/18359157/216805568-d95ff5ee-95bb-45a8-8f92-340f9533bd28.jpg)
-
-
 # English
 
 [简体中文](#%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-simplified-chinese)
@@ -44,3 +41,7 @@ Due to LSPosed's [New XSharedPreferences](https://github.com/LSPosed/LSPosed/wik
 这个模块的作用域只需要勾选“系统框架”（即保持默认设置即可），不需要勾选其它App，特别不要勾上Microsoft Intune，不然Xposed和ROOT会被它检测到。
 
 由于LSPosed的[New XSharedPreferences](https://github.com/LSPosed/LSPosed/wiki/New-XSharedPreferences)机制，如果你用的是**LSPosed**，在App中编辑/保存策略你的自定义策略之前，**请先激活这个模块并重启！！！**（换句话说，**当你点击保存按钮时，这个模块应处于激活状态！**），否则你保存的策略无法在LSPosed环境中正确读取。
+
+# UI
+
+![1](https://user-images.githubusercontent.com/18359157/216805568-d95ff5ee-95bb-45a8-8f92-340f9533bd28.jpg)
