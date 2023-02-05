@@ -1,5 +1,7 @@
 [![Download](https://img.shields.io/github/downloads/liyafe1997/FuckDevicePolicy/total)](https://github.com/liyafe1997/FuckDevicePolicy/releases)
 
+![photo_2023-02-05_14-39-14](https://user-images.githubusercontent.com/18359157/216805515-be5e815d-851d-4645-a32a-3455de179ddb.jpg)
+
 # English
 
 [简体中文](#%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-simplified-chinese)
