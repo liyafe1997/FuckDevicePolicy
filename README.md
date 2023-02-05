@@ -6,7 +6,7 @@
 
 This module can let you make some user restriction policies (set by Device Admin App or Work Profile, e.g. Microsoft Intune) nonfunctional. Especially some device-wide policies, even it is in the Work Profile but affected the outside  whole android environment(Your Personal Profile).
 
-For example, since Android 10, a new feature for Work Profile added: [https://developer.android.com/work/versions/android-10#work_profile_device-wide_unknown_sources](https://developer.android.com/work/versions/android-10#work_profile_device-wide_unknown_sources)
+For example, since Android 10, a new feature for Work Profile added: [https://developer.android.com/work/versions/android-10#work_profile_device-wide_unknown_sources](https://developer.android.com/work/versions/android-10#work_profile_device-wide_unknown_sources) (aka DISALLOW_INSTALL_UNKNOWN_SOURCES_GLOBALLY, value is "no_install_unknown_sources_globally")
 
 This allow the Work Profile App (For example, Microsoft Intune, aka Company Portal) disable the permission of installing APKs from unknown source GLOBALLY, even its inside the Work Profile, then you also can not install APKs in your personal profile! 
 
@@ -26,7 +26,7 @@ Due to LSPosed's [New XSharedPreferences](https://github.com/LSPosed/LSPosed/wik
 
 该模块可以让一些Android的用户限制策略失效，这些策略一般由“设备管理员”App设置，或者“工作配置文件”。比如Microsoft Intune（又叫“公司门户”）就是用来干这事的。特别是一些全局策略，即使是在工作配置文件里面设置的，但是会影响到外面的整个安卓（你的个人空间，即安卓的主环境）。
 
-比如，从Android 10开始，“工作配置文件”加了个很扯的功能：“device-wide unknown sources”。让你全局（哪怕在工作配置外面，即你的个人环境）都无法安装APK。（见[https://developer.android.com/work/versions/android-10#work_profile_device-wide_unknown_sources](https://developer.android.com/work/versions/android-10#work_profile_device-wide_unknown_sources)）
+比如，从Android 10开始，“工作配置文件”加了个很扯的功能：“device-wide unknown sources” (即用户限制DISALLOW_INSTALL_UNKNOWN_SOURCES_GLOBALLY，值为 "no_install_unknown_sources_globally")。让你全局（哪怕在工作配置外面，即你的个人环境）都无法安装APK。（见[https://developer.android.com/work/versions/android-10#work_profile_device-wide_unknown_sources](https://developer.android.com/work/versions/android-10#work_profile_device-wide_unknown_sources)）
 
 有的企业管理App，比如微软的Microsoft Intune（也叫公司门户）可能会应用这个策略（根据你的公司设置）。
 
