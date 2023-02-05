@@ -1,4 +1,4 @@
-[![Download](https://img.shields.io/github/downloads/liyafe1997/AllowUnknowSourceWorkProfile/total)](https://github.com/liyafe1997/AllowUnknowSourceWorkProfile/releases)
+[![Download](https://img.shields.io/github/downloads/liyafe1997/FuckDevicePolicy/total)](https://github.com/liyafe1997/FuckDevicePolicy/releases)
 
 # English
 
