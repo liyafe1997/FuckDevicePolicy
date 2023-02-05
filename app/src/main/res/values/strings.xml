@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FuckDevicePolicy</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">FuckDevicePolicy</string>
+
+
+    <string name="help_text">Hints:\n1. Put restriction policy values you want to make it nonfunctional to the below text area. One value one line. Then press the bottom right button to save.\n2. To get restriction values, check <b>[Constant Value]</b> on <a href='https://developer.android.com/reference/android/os/UserManager'>here (Android developer references website)</a>.\n3. You also can use [dumpsys device_policy](via adb shell or root) to check what restriction policies have applied on your device.\n4. Please check Xposed(LSPosed) log to see this module and policies loaded correctly or not.</string>
+    <string name="lsposed_mode"><![CDATA[5. Xposed/LSPosed Mode: Now in <b><font color=#00FF00>LSPosed</font></b> mode. Your custom policies will be saved correctly for LSPosed.]]></string>
+    <string name="compact_mode"><![CDATA[5. Xposed/LSPosed Mode: Now in <b><font color=#FF0000>Compatible</font></b> mode(LSPosed not detected). If you are using <b><font color=#FF0000>LSPosed</font></b>, please <b>activate this module and reboot</b> before click the save button! Otherwise your policies will not be saved correctly!]]></string>
+</resources>
